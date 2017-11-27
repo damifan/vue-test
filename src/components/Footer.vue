@@ -1,13 +1,13 @@
 <template>
-  <div>
-    this is footer
-  </div>
+    <footer class="copy">
+      Copy &copy; FungLeo
+    </footer>
 </template>
 
 <script>
-  export default {
-    name: 'Footer'
-  }
+export default {
+  name: 'footer'
+}
 </script>
 
 <style scoped>
