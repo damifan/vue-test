@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/page/index'
 import Content from '@/page/content'
 import Ue from '@/page/ue_test'
+import Jq from '@/page/jq'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/ue/',
       name: 'ue_test',
       component: Ue
+    },
+    {
+      path: '/jq/',
+      name: 'jq',
+      component: Jq
     }
   ]
 })
