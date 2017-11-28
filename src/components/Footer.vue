@@ -1,6 +1,6 @@
 <template>
     <footer class="copy">
-      Copy &copy; FungLeo
+      Copy &copy; damifan
     </footer>
 </template>
 

@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+
+import '../theme/index.css'
+import ElementUI from 'element-ui'
+
 // 引用API文件
 import api from './api/index'
 import utils from './utils/index'
@@ -18,10 +22,12 @@ Vue.config.productionTip = false
 Vue.prototype.$api = api
 Vue.prototype.$utils = utils
 
+Vue.use(ElementUI)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: {App}
 })
