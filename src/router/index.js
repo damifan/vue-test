@@ -4,6 +4,7 @@ import Index from '@/page/index'
 import Content from '@/page/content'
 import Ue from '@/page/ue_test'
 import Jq from '@/page/jq'
+import Login from '@/page/login'
 
 Vue.use(Router)
 
@@ -13,6 +14,11 @@ export default new Router({
       path: '/',
       name: 'index',
       component: Index
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/content/:id',
